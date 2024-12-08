@@ -1,68 +1,68 @@
 cask "thunderbird@beta" do
-  version "134.0b1"
+  version "134.0b3"
 
   language "cs" do
-    sha256 "98f3205d3e774b54df8c3a0a875e51154883b27528e6e5de8e59b324875311ba"
+    sha256 "349262c1773530a363ab6e6900225ac212c52d412207da06d969c08bba6a4e4f"
     "cs"
   end
   language "de" do
-    sha256 "46fffe418f76ae0559c6c19b2523af30847af44090b404d9567390b0dd27a59c"
+    sha256 "6d6dc9535d27bb3e7c9f7111f1f752743a7aede1ed9d74878958c5add4d04f0a"
     "de"
   end
   language "en-GB" do
-    sha256 "89a1192f6c03d4de40611f554d094d09d7fccd6f062f46eba3e5b4721fc98588"
+    sha256 "5decdfd0afb7d41a4f3168ac7cb84b63e1dc70dd7dea4506a711b6500f7f4001"
     "en-GB"
   end
   language "en", default: true do
-    sha256 "687556ce925fd80c5b2c9f670345f0512850f5d231b383811685429564fad57d"
+    sha256 "9f6152b58990a99130d9794647d1e539bbcd823ec6a8e6b9b43966da4f27158c"
     "en-US"
   end
   language "fr" do
-    sha256 "9d97cdf51e4811e5710d19949579052fa44bc3989e541b2a7b3fec8081486c96"
+    sha256 "da7074748fa64618141918349ecc4e66795e10994ff76b4d5c58607f19e7c231"
     "fr"
   end
   language "gl" do
-    sha256 "bdf6e4f3a483929ba3efabbee6f09fdc25a39a520cd565a1742420626c5ec4b2"
+    sha256 "e75baea7f448f0574657d43ae3a7e60769442a908485c772a60cb8c5b98a5946"
     "gl"
   end
   language "it" do
-    sha256 "89080e79a680452c16bd8d03cbc042776697b46763d37ac588f7c50ce2a23821"
+    sha256 "35f8f8e9c05023404c28916bde0fae3c358bf383529874ea357b7c2d6707e14f"
     "it"
   end
   language "ja" do
-    sha256 "f11c5f4fb42b311f0f95b4dd24af718ba6c79e6fdf31cdc624c4cfdd6667fdec"
+    sha256 "d62ba40565f6fbf946c960b464b59386139f12f1bc2621d9934fd39b351579b5"
     "ja-JP-mac"
   end
   language "nl" do
-    sha256 "456d8f74249302085c1e026195282cf25a392435e74386557d31e0f6d78758f1"
+    sha256 "d76ca323a00174480281b6499c86e95e89524d43aad13b9796d6c62fe77e7cba"
     "nl"
   end
   language "pl" do
-    sha256 "1423ac3edb7f8afd2e748cc3d8e7c10f6fd9e9aa3087bbc62f09f521afe2e283"
+    sha256 "5c22511cb9af586cae0a5e891e7f30ae9b6ffbdadd918552b9372d91eec29b85"
     "pl"
   end
   language "pt" do
-    sha256 "d6d2f14ca886feb68726df9a67ef126ee5453e0540c5ef9af9e561d5ec0bc41e"
+    sha256 "fe51ced7fe083fa837ea4964daabb92d67bb85e991527326b6e0c94eb6fb0445"
     "pt-PT"
   end
   language "pt-BR" do
-    sha256 "c4303290a0c884122fcade2017b780042023eaae3b755013070ff8460537e00a"
+    sha256 "ccd563d0c85a52ce59b5186776ae32209e153831c07882facd807a86b44b170b"
     "pt-BR"
   end
   language "ru" do
-    sha256 "ad4bddb787ede394ab8c77bb32f2ad11a089aa96ddbf406534ee5f8d8d9bf7c6"
+    sha256 "fa1f8d83cf90892335ddd8f98923d641c7c705cfbffae2dfe8e0a577b4f38f23"
     "ru"
   end
   language "uk" do
-    sha256 "51f78fcc40f6ee77b3a5fe76d566c29c3a75c32779dcfebbd5c9f2aee35dc7eb"
+    sha256 "6ed52943680df67d4c3aae3f814b7e427d6298ce8c763b57581f707574cc4aa7"
     "uk"
   end
   language "zh-TW" do
-    sha256 "1826ab748645e52dd19141f15050c42edc2f479e53eed05ffe1a282b586e3653"
+    sha256 "0ed8e7f578195f10c9f34c9502ef27edc810cead1ae97f1df5d2592579818e9d"
     "zh-TW"
   end
   language "zh" do
-    sha256 "97d1cda0f9f2f8b2925456df3e3a9e57a453444028c8d1f4ee44b16642d77fb9"
+    sha256 "73741837987b317fb7d5c9a6560c367fcfedfb4e15de2d720b58fae954eee3c5"
     "zh-CN"
   end
 
@@ -85,10 +85,12 @@ cask "thunderbird@beta" do
   app "Thunderbird Beta.app"
 
   zap trash: [
-    "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.mozilla.thunderbird*.sfl*",
-    "~/Library/Caches/Thunderbird",
-    "~/Library/Preferences/org.mozilla.thunderbird*.plist",
-    "~/Library/Saved Application State/org.mozilla.thunderbird*.savedState",
-    "~/Library/Thunderbird",
-  ]
+        "~/Library/Application Support/com.apple.sharedfilelist/com.apple.LSSharedFileList.ApplicationRecentDocuments/org.mozilla.thunderbird*.sfl*",
+        "~/Library/Caches/Mozilla/updates/Applications/Thunderbird*",
+        "~/Library/Caches/Thunderbird",
+        "~/Library/Preferences/org.mozilla.thunderbird*.plist",
+        "~/Library/Saved Application State/org.mozilla.thunderbird*.savedState",
+        "~/Library/Thunderbird",
+      ],
+      rmdir: "~/Library/Caches/Mozilla"
 end
