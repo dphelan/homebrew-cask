@@ -1,11 +1,11 @@
 cask "screen-studio" do
   arch arm: "-arm64"
 
-  version "2.25.33"
-  sha256 arm:   "e5c5b73a7a7e3d3ca297a23e21f66820b3d234891ff40802715110ac1d45aae7",
-         intel: "41f3990c634f764d6fe37afba25b8da0e75152d04adb4746e49c29c90a4df28e"
+  version "2.26.0-3066"
+  sha256 arm:   "8de7a4a8f0b38c6e5c9be6fec0959149e3a08c8b0ad6f03de9ec146c09533740",
+         intel: "d207accf62904b2a17aa488538ff10df3d36444a3768c291dc25256f0b9c9c1b"
 
-  url "https://screenstudioassets.com/Screen%20Studio-#{version}#{arch}-mac.zip",
+  url "https://screenstudioassets.com/releases/#{version}/Screen%20Studio-#{version}#{arch}-mac.zip",
       verified: "screenstudioassets.com/"
   name "Screen Studio"
   desc "Screen recorder and editor"
@@ -19,7 +19,7 @@ cask "screen-studio" do
   end
 
   auto_updates true
-  depends_on macos: ">= :high_sierra"
+  depends_on macos: ">= :big_sur"
 
   app "Screen Studio.app"
 

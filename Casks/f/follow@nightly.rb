@@ -1,11 +1,11 @@
 cask "follow@nightly" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.2.4-nightly.20241124"
-  sha256 arm:   "33f337103f3734927374452c9a0bd45ad4f85be94aa4766a0e1c67b0be17f68e",
-         intel: "0731b4d51de3506b372b7f920ee2fbb5e07b677e633fc25dd49dfb1442448350"
+  version "0.2.6-nightly.20241209"
+  sha256 arm:   "cfbf32a4b0cce677ea4388160add25425678c723dee8cf4a1d298fa212da3830",
+         intel: "d03eab576886c670409fc099dc3f92473742eea9ff6a2111d4bf2c26cb6549bd"
 
-  url "https://github.com/RSSNext/Follow/releases/download/nightly-#{version}/Follow-#{version}-macos-#{arch}.dmg",
+  url "https://github.com/RSSNext/Follow/releases/download/#{version}/Follow-#{version}-macos-#{arch}.dmg",
       verified: "github.com/RSSNext/Follow/"
   name "Follow Nightly"
   desc "Information browser"
@@ -13,7 +13,7 @@ cask "follow@nightly" do
 
   livecheck do
     url :url
-    regex(/^nightly[._-]v?(\d+(?:\.\d+)+(?:[._-]nightly[._-]?\d+)?)$/i)
+    regex(/^(?:nightly[._-])?v?(\d+(?:\.\d+)+(?:[._-]nightly[._-]?\d+)?)$/i)
   end
 
   conflicts_with cask: [

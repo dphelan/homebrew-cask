@@ -8,9 +8,9 @@ cask "djstudio" do
     url "https://github.com/AppMachine/dj-studio-app-updates/releases/download/v#{version}/DJ.Studio-#{version}.dmg"
   end
   on_catalina :or_newer do
-    version "2.6.104"
-    sha256 arm:   "8f6fb08230fb15044f83577ec4ec32735a4983cfed5e3a0cf9c4342dd38a55b7",
-           intel: "cbb417f2802c0221b91d857c610fd583bfa9face941c8337c90977e1d0f98f5e"
+    version "2.6.109"
+    sha256 arm:   "3abe3f4748fe825847ffdf171a183c8663ff806ec2184efdae0d2777c9e7765d",
+           intel: "f5cdacbb9611c231908f26472c602bb8294d31b756b6580cf07826d83f35cc23"
 
     url "https://download.dj.studio/DJ.Studio-#{version}#{arch}.dmg"
   end

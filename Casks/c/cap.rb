@@ -2,12 +2,12 @@ cask "cap" do
   arch arm: "aarch64", intel: "x86_64"
 
   on_arm do
-    version "0.3.1,01JDQFBFP2RT6TFFHZ29155PYG"
-    sha256 "fafa44f6eb6525fff2112036032d05fa2f953b6bcc54656790af9ea581e56512"
+    version "0.3.4,01JEPBC5X2522YW2R8T60FP9ZA"
+    sha256 "d24d8e27f43d964c0bd1166d8a957d36b6994a47e37067713521115ad84f49ec"
   end
   on_intel do
-    version "0.3.1,01JDQF94S1HABYRADTBZE3JT9W"
-    sha256 "99e2ef52beea6717d59618e1f87302b21cd865e7ba004fe629abaa30a3f661f6"
+    version "0.3.4,01JEPANCEQ9E3044D1PQB68VF0"
+    sha256 "4182cf93953c08cd88a865b4a25a3aab1f395be537b5f8406129046c641bf416"
   end
 
   url "https://cdn.crabnebula.app/asset/#{version.csv.second}",
@@ -20,7 +20,7 @@ cask "cap" do
     url "https://cdn.crabnebula.app/update/cap/cap/darwin-#{arch}/0.0.0"
     regex(%r{cdn.crabnebula.app/asset/(.+)}i)
     strategy :json do |json, regex|
-      asset_id = json["url"][regex, 1]
+      asset_id = json["url"]&.[](regex, 1)
       version = json["version"]
       next if asset_id.blank? || version.blank?
 
