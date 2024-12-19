@@ -1,9 +1,9 @@
 cask "aide-app" do
   arch arm: "arm64", intel: "x64"
 
-  version "1.94.2.24333"
-  sha256 arm:   "2b3f0a947e8ee858ff6e14ce96a130e876761307840fe2fadc9b3c38eb86d6cb",
-         intel: "bc9c990de13e4b2a5190768cd022e3d7e200fe627f00de7cec9212ecc4876b99"
+  version "1.94.2.24352"
+  sha256 arm:   "6dc034a940dce6f837478f12981f2a1fe5a5c7652ce9f943fc02026b96d8bb4e",
+         intel: "4a4ceb31abb553931da593b0a838e8c8eeaa00bbc5617fd54170e749fbce0afa"
 
   url "https://github.com/codestoryai/binaries/releases/download/#{version}/Aide.#{arch}.#{version}.dmg",
       verified: "github.com/codestoryai/binaries/"
