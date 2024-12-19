@@ -30,6 +30,7 @@ adguard@nightly
 adobe-acrobat-pro
 adobe-acrobat-reader
 adrive
+aerial@beta
 affine
 affinity-designer
 affinity-photo
@@ -61,6 +62,7 @@ ankiapp
 another-redis-desktop-manager
 anydesk
 anydo
+anypointstudio
 anythingllm
 anytype
 anytype@alpha
@@ -80,13 +82,16 @@ archipelago
 archivewebpage
 archy
 arctic
+arduino-ide
 ares
+ariang
 arq
 artisan
 arturia-software-center
 asana
 astah-professional
 atlauncher
+atomic-wallet
 audacity
 audius
 automattic-texts
@@ -101,6 +106,7 @@ badlion-client
 baidunetdisk
 balenaetcher
 banana-cake-pop
+bananas
 banking-4
 banktivity
 batteries
@@ -119,6 +125,7 @@ bike
 bilibili
 binance
 bing-wallpaper
+bisq
 bitbox
 bitwarden
 bitwig-studio
@@ -131,6 +138,7 @@ blockstream-green
 blocs
 blood-on-the-clocktower-online
 bloop
+bluewallet
 boinc
 boltai
 bookends
@@ -151,6 +159,7 @@ busycal
 buttercup
 c0re100-qbittorrent
 cables
+cacher
 cahier
 calhash
 calibre
@@ -162,6 +171,7 @@ canon-ufrii-driver
 canva
 cap
 capacities
+caprine
 captain
 carbon-copy-cloner
 cardhop
@@ -207,6 +217,7 @@ codeql
 codux
 cog
 coin-wallet
+commandpost
 confluent-cli
 connect-fonts
 cookie
@@ -232,6 +243,7 @@ curseforge
 cursor
 cyberduck
 cycling74-max
+daedalus-mainnet
 dangerzone
 dash-dash
 dashcam-viewer
@@ -277,10 +289,13 @@ discord@canary
 discord@development
 discord@ptb
 diskcatalogmaker
+djstudio
 dockside
 dockx
+dogecoin
 dolphin@dev
 dosbox-staging
+dosbox-x
 dotnet
 dotnet-sdk
 dotnet-sdk@preview
@@ -305,7 +320,9 @@ edrawmind
 egnyte
 electerm
 electron
+electron-cash
 electron-fiddle
+electronmail
 electrum
 elektron-overbridge
 elektron-transfer
@@ -324,6 +341,7 @@ enpass
 ente
 ente-auth
 entry
+epic-games
 eset-cyber-security
 evernote
 excalidrawz
@@ -345,6 +363,7 @@ figma
 figma-agent
 figma@beta
 fiji
+filen
 finalshell
 finbar
 finch
@@ -358,7 +377,6 @@ firefox@developer-edition
 firefox@esr
 fixkey
 fleet
-flipper
 fliqlo
 flirc
 floorp
@@ -376,6 +394,8 @@ follow
 follow@nightly
 font-chiron-hei-hk
 font-chiron-sung-hk
+font-elstobd
+font-fontawesome
 font-inter
 font-iosevka
 font-iosevka-aile
@@ -406,6 +426,7 @@ font-lxgw-neozhisong
 font-lxgw-simxihei
 font-lxgw-simzhisong
 font-sarasa-gothic
+font-sudo
 foobar2000
 fork
 forkgram-telegram
@@ -414,6 +435,7 @@ fossa
 foxglove-studio
 foxit-pdf-editor
 framer
+frappe-books
 free-download-manager
 free42-binary
 free42-decimal
@@ -432,6 +454,7 @@ gather
 gb-studio
 gcs
 gdevelop
+geekbench-ai
 genesys-cloud
 geoda
 geogebra
@@ -463,6 +486,7 @@ gqrx
 graalvm-jdk@21
 grammarly-desktop
 grandtotal
+graphicconverter
 gridtracker2
 groestlcoin-core
 gstreamer-development
@@ -472,6 +496,7 @@ hackolade
 halloy
 hancom-docs
 hancom-word
+handbrake
 hashbackup
 hazel
 hbuilderx
@@ -479,6 +504,7 @@ heptabase
 herd
 heroic
 hhkb-studio
+hides
 holavpn
 home-assistant
 hoppscotch
@@ -493,6 +519,7 @@ hyperbackupexplorer
 hyperconnect
 hyperkey
 i1profiler
+ia-presenter
 ibackup-viewer
 ibkr
 ibm-cloud-cli
@@ -504,6 +531,7 @@ iina+
 imazing
 imhex
 inkdown
+inkdrop
 inso
 inso@beta
 insomnia
@@ -548,6 +576,7 @@ jyutping
 kaleidoscope
 kando
 kdenlive
+kdiff3
 kdrive
 keepassxc@snapshot
 keeper-password-manager
@@ -572,6 +601,7 @@ langgraph-studio
 languagetool
 lark
 launchbar
+launchcontrol
 lazycat
 leapp
 lectrote
@@ -607,6 +637,8 @@ lookaway
 loom
 losslesscut
 loupedeck
+low-profile
+lulu
 lunacy
 lunar
 lunar-client
@@ -639,12 +671,15 @@ melodics
 memory-cleaner
 mendeley-reference-manager
 menubarx
+meridiem
 merlin-project
 messenger
 meta-quest-developer-hub
 metashape
+metashapepro
 metasploit
 meteorologist
+mgba
 mi
 mi@beta
 microblog
@@ -675,6 +710,7 @@ miniforge
 minisim
 minitube
 minizincide
+minstaller
 mints
 mist
 mitmproxy
@@ -682,11 +718,13 @@ mixed-in-key
 mixin
 mixxx
 mixxx@snapshot
+mmex
 mmhmm
 mmhmm-studio
 mochi
 mochi-diffusion
 mockoon
+modern-csv
 modrinth
 monal
 monal@beta
@@ -732,8 +770,10 @@ navicat-for-sql-server
 navicat-for-sqlite
 navicat-premium
 navicat-premium-lite
+neofinder
 neohtop
 neovide
+netbeans
 netron
 netspot
 nextcloud
@@ -744,6 +784,7 @@ nordlayer
 nordlocker
 nordpass
 nordvpn
+northern-softworks-cache-cleaner
 nosql-workbench
 nosqlbooster-for-mongodb
 notchnook
@@ -752,8 +793,10 @@ notesnook
 notion
 notion-calendar
 nova
+novabench
 nozbe
 nuclear
+nucleo
 nudge
 nvidia-geforce-now
 obs
@@ -769,13 +812,17 @@ ollamac
 olympus
 omnifocus
 omnigraffle
+omnioutliner
+onecast
 onedrive
 onekey
 onlyoffice
+ontime
 opal-composer
 openaudible
 opencat
 opencore-configurator
+opencore-patcher
 openlens
 openlp
 openrct2
@@ -783,6 +830,7 @@ openrefine
 openscad@snapshot
 openshift-client
 openshot-video-editor@daily
+opensoundmeter
 openthesaurus-deutsch
 openvanilla
 openwebstart
@@ -830,6 +878,7 @@ piclist
 pieces
 pieces-cli
 pieces-os
+pika
 pile
 pingplotter
 pitch
@@ -869,7 +918,9 @@ prepros
 prezi-video
 pritunl
 private-internet-access
+processing
 processspy
+progressive-downloader
 propresenter
 propresenter@beta
 proton-drive
@@ -892,7 +943,9 @@ pyzo
 qbittorrent
 qbittorrent@lt20
 qcad
+qfinder-pro
 qgis
+qgroundcontrol
 qlab
 qownnotes
 qq
@@ -920,12 +973,14 @@ readdle-spark
 reader
 readmoreading
 readyapi
+realforce
 reaper
 receipts
 rectangle
 rectangle-pro
 redisinsight
 reflect
+reflector
 rekordbox
 remote-desktop-manager
 remotehamradio
@@ -935,6 +990,7 @@ replacicon
 replaywebpage
 replit
 reqable
+requestly
 resolume-arena
 responsively
 restfox
@@ -951,6 +1007,7 @@ rippling
 rive
 rize
 roam
+roam-research
 roblox
 robloxstudio
 roboform
@@ -966,6 +1023,10 @@ rstudio@daily
 rubymine
 rustdesk
 rustrover
+sabnzbd
+safe-exam-browser
+saleae-logic
+sanctum
 santa
 sapmachine-jdk
 sauce-connect
@@ -975,10 +1036,13 @@ screaming-frog-seo-spider
 screen-studio
 screenmemory
 screens-connect
+scrivener
 scrolla
 sdm
+seadrive
 seafile-client
 second-life-viewer
+securesafe
 securityspy
 segger-jlink
 segger-ozone
@@ -990,6 +1054,7 @@ semeru-jdk-open@8
 sentinel
 sequel-ace
 session
+sessionrestore
 setapp
 sf
 sfm
@@ -1000,7 +1065,10 @@ shadowsocksx-ng
 shapr3d
 shattered-pixel-dungeon
 shearwater-cloud
+sherlock
 shift
+shortwave
+shutter-encoder
 sigmaos
 signal
 signal@beta
@@ -1029,6 +1097,7 @@ sol
 solar2d
 sonarr
 songkong
+sonos
 soulver
 sound-control
 sound-siphon
@@ -1040,13 +1109,16 @@ spamsieve
 spark-ar-studio
 sparkle
 sparrow
+spatterlight
 spike
+splashtop-business
 splashtop-streamer
 splice
 springtoolsuite
 spybuster
 spyder
 sqlcl
+sqlitestudio
 squash
 standard-notes
 staruml
@@ -1076,6 +1148,7 @@ syncthing
 tabby
 tableflip
 tableplus
+tabtab
 tagspaces
 tailscale
 taskade
@@ -1151,6 +1224,7 @@ trilium-notes
 truhu
 trunk-io
 tuist
+tunetag
 tunnelbear
 tunnelblick@beta
 tuple
@@ -1177,7 +1251,9 @@ universal-gcode-platform
 universal-media-server
 updf
 usmart-trade
+utm
 utools
+uu-booster
 uvtools
 valentina-studio
 vamiga
@@ -1203,6 +1279,7 @@ visual-studio-code
 vitamin-r
 vivaldi
 vivaldi@snapshot
+viz
 vlc@nightly
 vnc-viewer
 volanta
@@ -1236,12 +1313,15 @@ whatsapp@legacy
 whisky
 widelands
 wifispoof
+winbox
 windows-app
 windscribe
+windsurf
 wing-personal
 wins
 wire
 wirecast
+wizcli
 wljs-notebook
 wondershare-uniconverter
 wooshy
@@ -1260,6 +1340,7 @@ xnconvert
 xnviewmp
 xpra
 yaak
+yandex-cloud-cli
 yandex-music
 yealink-meeting
 yes24-ebook
@@ -1273,6 +1354,7 @@ zappy
 zed
 zed@preview
 zen-browser
+zen-browser@twilight
 zeplin
 zettlr
 znote
@@ -1282,4 +1364,5 @@ zoom
 zoom-for-it-admins
 zotero
 zotero@beta
+zspace
 zulu

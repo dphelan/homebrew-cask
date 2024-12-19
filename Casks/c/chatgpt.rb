@@ -1,6 +1,6 @@
 cask "chatgpt" do
-  version "1.2024.325,1732572608"
-  sha256 "abc0d492d8793e0af99b066bd348fef91aaa423d62656c4f96e4813236c34a00"
+  version "1.2024.346,1734386520"
+  sha256 "dbddfd3192dc2d8fbda155c897851efd082542787e470ff1321997f26851e379"
 
   url "https://persistent.oaistatic.com/sidekick/public/ChatGPT_Desktop_public_#{version.csv.first}_#{version.csv.second}.dmg",
       verified: "persistent.oaistatic.com/sidekick/public/"
@@ -26,6 +26,7 @@ cask "chatgpt" do
   uninstall quit: "com.openai.chat"
 
   zap trash: [
+    "~/Library/Application Support/ChatGPT",
     "~/Library/Application Support/com.openai.chat",
     "~/Library/Caches/com.openai.chat",
     "~/Library/HTTPStorages/com.openai.chat",

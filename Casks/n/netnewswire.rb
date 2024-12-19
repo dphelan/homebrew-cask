@@ -1,17 +1,31 @@
 cask "netnewswire" do
-  version "6.1.4"
-  sha256 "74d75b9e25c6adef06dbf01cd060771872769357448879809535f77493840bbb"
+  on_monterey :or_older do
+    version "6.1.4"
+    sha256 "74d75b9e25c6adef06dbf01cd060771872769357448879809535f77493840bbb"
 
-  url "https://github.com/Ranchero-Software/NetNewsWire/releases/download/mac-#{version}/NetNewsWire#{version}.zip",
-      verified: "github.com/Ranchero-Software/NetNewsWire/"
+    url "https://github.com/Ranchero-Software/NetNewsWire/releases/download/mac-#{version}/NetNewsWire#{version}.zip",
+        verified: "github.com/Ranchero-Software/NetNewsWire/"
+
+    livecheck do
+      skip "Legacy version"
+    end
+  end
+  on_ventura :or_newer do
+    version "6.1.7"
+    sha256 "6108dad6dc46725ffaf879a7d8c57673fbeaa27a8e55b6b6153426d5ffea39aa"
+
+    url "https://github.com/Ranchero-Software/NetNewsWire/releases/download/mac-#{version}-release/NetNewsWire#{version}.zip",
+        verified: "github.com/Ranchero-Software/NetNewsWire/"
+
+    livecheck do
+      url :url
+      regex(/^mac[._-]v?(\d+(?:\.\d+)+)(?:[._-]release)?$/i)
+    end
+  end
+
   name "NetNewsWire"
   desc "Free and open-source RSS reader"
   homepage "https://netnewswire.com/"
-
-  livecheck do
-    url :url
-    regex(/^mac[._-]v?(\d+(?:\.\d+)+)$/i)
-  end
 
   auto_updates true
   conflicts_with cask: "netnewswire@beta"
