@@ -1,6 +1,6 @@
 cask "finbar" do
-  version "1.13.6"
-  sha256 "9e9e05cdc461fa30f93d40407740e90f386bc760433d8bdff0b9b08e5c3074c1"
+  version "1.14.1"
+  sha256 "bd367e2e33f17a786b6b5f8862ad9a1f76f8a7af0716c725b63daa3be61f5817"
 
   url "https://roeybiran.com/apps/finbar/Finbar%20#{version}.dmg"
   name "Finbar"

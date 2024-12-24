@@ -1,6 +1,6 @@
 cask "topaz-photo-ai" do
-  version "3.3.3"
-  sha256 "4aa2f6f686e37a1923261a25cffc7814f3d8cd71b769e144c8ae02109992b9a1"
+  version "3.4.2"
+  sha256 "4269c1beea75393fcac3dfc267944063493a117e96a2e6846d3c71acf0f7c7bc"
 
   url "https://downloads.topazlabs.com/deploy/TopazPhotoAI/#{version}/TopazPhotoAI-#{version}.pkg"
   name "Topaz Photo AI"
@@ -11,6 +11,8 @@ cask "topaz-photo-ai" do
     url "https://topazlabs.com/d/photo/latest/mac/full"
     strategy :header_match
   end
+
+  auto_updates true
 
   pkg "TopazPhotoAI-#{version}.pkg"
 

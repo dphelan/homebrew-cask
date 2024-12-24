@@ -1,6 +1,6 @@
 cask "sunvox" do
-  version "2.1.2"
-  sha256 "5dfd1aa368cd34c2abdb234952c7ba9a44d99d03d67476db5d809227e3f70344"
+  version "2.1.2b"
+  sha256 "281e98e6e2855ed06b98965c18b3f174b9425e77bf8b06c5c17f5aa64f2c9f6f"
 
   url "https://www.warmplace.ru/soft/sunvox/sunvox-#{version}.zip"
   name "SunVox"
@@ -8,8 +8,8 @@ cask "sunvox" do
   homepage "https://www.warmplace.ru/soft/sunvox/"
 
   livecheck do
-    url "https://www.warmplace.ru/soft/sunvox/changelog.txt"
-    regex(/^v(\d+(?:\.\d+)*[a-z]?)\s*\(\d+/i)
+    url :homepage
+    regex(/href=.*?sunvox[._-]v?(\d+(?:\.\d+)+[a-z]?)\.zip/i)
   end
 
   depends_on macos: ">= :high_sierra"

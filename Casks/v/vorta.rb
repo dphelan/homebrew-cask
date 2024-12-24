@@ -1,9 +1,9 @@
 cask "vorta" do
   arch arm: "arm", intel: "intel"
 
-  version "0.10.1"
-  sha256 arm:   "a50808b82f8a7f02e17852b5d537bd7bd4d4b3f04442a9b7409c9bc58f4fceaa",
-         intel: "d1586c9c36ec40190ec73f2a8e808685639db69ff83b5c91c120dbaec1a47dbf"
+  version "0.10.3"
+  sha256 arm:   "78960fd229074fc0d76c4d8d22b078e6b8b6d947a00491ec9880f9abc8f17bb7",
+         intel: "b903ea4f122aa04d62c5e6185c4a1f8a414b6c6e97296843bcdeeee6274d04f0"
 
   url "https://github.com/borgbase/vorta/releases/download/v#{version}/Vorta-v#{version}-#{arch}.dmg"
   name "Vorta"

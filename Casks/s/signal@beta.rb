@@ -1,9 +1,9 @@
 cask "signal@beta" do
   arch arm: "arm64", intel: "x64"
 
-  version "7.35.0-beta.1"
-  sha256 arm:   "68bc924d6f2c47e4b7ed8b951f6a01debb30374a6a7d87237cee771582509e55",
-         intel: "091dd19c9a01c4d6cc45465f5b87ac4fce918c5db7bcf9b01cb7fb57504bb54e"
+  version "7.37.0-beta.1"
+  sha256 arm:   "1bac52b84282a6725b1aba30a2f2de090e09a9fd6c3daca51b0ced60508e8f77",
+         intel: "91b5a80e88159064999482ee110cf519d6746d076dd48fe7fe0a4ca868ce83ff"
 
   url "https://updates.signal.org/desktop/signal-desktop-beta-mac-#{arch}-#{version}.dmg"
   name "Signal Beta"
@@ -11,8 +11,8 @@ cask "signal@beta" do
   homepage "https://signal.org/"
 
   livecheck do
-    url "https://github.com/signalapp/Signal-Desktop"
-    regex(/^v?(\d+(?:\.\d+)+[._-]beta\.\d+)$/i)
+    url "https://updates.signal.org/desktop/beta-mac.yml"
+    strategy :electron_builder
   end
 
   auto_updates true

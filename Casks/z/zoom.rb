@@ -2,9 +2,9 @@ cask "zoom" do
   arch arm: "arm64/"
   livecheck_folder = on_arch_conditional arm: "?archType=arm64"
 
-  version "6.2.11.43613"
-  sha256 arm:   "dd6d28853eb6be7eaf7731aae1855c68cd6411ef6847158e6af18fffed5f8597",
-         intel: "3679d8df57e3d019750cb12085a8dfd5b1f6fdb09ec33cd66463f86ef22fbf29"
+  version "6.3.1.45300"
+  sha256 arm:   "58f86a6287ff5d1e930e4b80e0d2b66b7d24b1d84decd05fb38282430a8a2748",
+         intel: "072c01bc909c3570111d390efd425b385463ba25d1926156992b99b16f6dd699"
 
   url "https://cdn.zoom.us/prod/#{version}/#{arch}zoomusInstallerFull.pkg"
   name "Zoom"
@@ -35,7 +35,11 @@ cask "zoom" do
     opoo "Unable to forcibly close zoom.us.app"
   end
 
-  uninstall launchctl: "us.zoom.ZoomDaemon",
+  uninstall launchctl: [
+              "us.zoom.updater",
+              "us.zoom.updater.login.check",
+              "us.zoom.ZoomDaemon",
+            ],
             signal:    ["KILL", "us.zoom.xos"],
             pkgutil:   "us.zoom.pkg.videomeeting",
             delete:    [

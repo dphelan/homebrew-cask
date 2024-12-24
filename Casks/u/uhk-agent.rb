@@ -1,6 +1,6 @@
 cask "uhk-agent" do
-  version "4.2.1"
-  sha256 "bfe4c26f8fa4f8a042d24d100c1ddf11debf78c5cf88e083a0ce7a58bba3ebdc"
+  version "5.0.1"
+  sha256 "237d5295f3d620c25a1bc2ea287730eaec692f8a7b33d2c6a8a4601c5f5c0425"
 
   url "https://github.com/UltimateHackingKeyboard/agent/releases/download/v#{version}/UHK.Agent-#{version}-mac.dmg"
   name "Ultimate Hacking Keyboard Agent"

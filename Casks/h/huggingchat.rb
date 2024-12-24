@@ -1,6 +1,6 @@
 cask "huggingchat" do
-  version "0.6.0"
-  sha256 "14a264b02595bd2560d947091e92cea3b496a9e003db36059c1431efcf1b4fac"
+  version "0.7.0"
+  sha256 "b421090d0e68230b7fc2dc086bb12b1e846acce0682af45edc26e66b4be15ce1"
 
   url "https://github.com/huggingface/chat-macOS/releases/download/v#{version}/HuggingChat.zip"
   name "huggingchat"

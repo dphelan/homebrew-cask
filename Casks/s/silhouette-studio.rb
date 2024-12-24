@@ -1,6 +1,6 @@
 cask "silhouette-studio" do
-  version "4.5.815.001_M6R"
-  sha256 "c44008ad2e470a8623456b82fd2b28b0a7799f7cbea7647751c3a4d69d8d6fe4"
+  version "5.0.081.001_M6R"
+  sha256 "851d700c3620c10de7fc8299ab9b016465c7f9f049cb09d65fd30b392153b942"
 
   url "https://d62nvtdcnsm38.cloudfront.net/files/softwares/ss/SS_V#{version}.dmg",
       verified: "d62nvtdcnsm38.cloudfront.net/files/softwares/ss/"

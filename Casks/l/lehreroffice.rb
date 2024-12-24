@@ -1,14 +1,14 @@
 cask "lehreroffice" do
-  version "2024.4.1"
+  version "2024.5"
   sha256 :no_check
 
-  url "https://www.lehreroffice.ch/lo/dateien/easy/lo_desktop_macos.dmg"
+  url "https://www.cmi-bildung.ch/lo/dateien/easy/lo_desktop_macos.dmg"
   name "LehrerOffice"
   desc "Education software"
-  homepage "https://www.lehreroffice.ch/"
+  homepage "https://www.cmi-bildung.ch/"
 
   livecheck do
-    url "https://www.lehreroffice.ch/services/update/getcurrentversion.php?app=Desktop"
+    url "https://www.cmi-bildung.ch/lo/dateien/easy/lo_version.txt"
     regex(/(\d+(?:\.\d+)+)/i)
   end
 
